@@ -3,3 +3,227 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+  }
+
+  header {
+    width: 1920px;
+    height: 90px;
+    margin: 0;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+  }
+  
+  .gnb {
+    width: 1640px;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* section01 시작 */
+  .section01 {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+/* section01_container의 초기 설정 */
+.section01_container {
+    width: 100%; /* 100%로 변경 */
+    position: relative;
+  }
+
+   /* newchallenge text 애니메이션 */
+   .n{
+    position: absolute;
+    left: 24px;
+    top: 280px;
+  }
+
+  .e{
+    position: absolute;
+    left: 194px;
+    top: 280px;
+  }
+
+  .w{
+    position: absolute;
+    left: 332px;
+    top: 280px;
+  }
+
+  .c{
+    position: absolute;
+    left: 555px;
+    top: 280px;
+  }
+
+  .h{
+    position: absolute;
+    left: 701px;
+    top: 280px;
+  }
+
+  .a{
+    position: absolute;
+    left: 856px;
+    top: 280px;
+  }
+
+  .l{
+    position: absolute;
+    left: 1036px;
+    top: 280px;
+  }
+
+  .l2{
+    position: absolute;
+    left: 1164px;
+    top: 280px;
+  }
+
+  .e2{
+    position: absolute;
+    left: 1291px;
+    top: 280px;
+  }
+
+  .n2{
+    position: absolute;
+    left: 1441px;
+    top: 280px;
+  }
+
+  .g{
+    position: absolute;
+    left: 1607px;
+    top: 280px;
+  }
+
+  .e3{
+    position: absolute;
+    left: 1774px;
+    top: 280px;
+  }
+
+  /* newchallenge 하단 text 애니메이션  */
+  .tomorrow{
+    position: absolute;
+    left: 199px;
+    top: 428px;
+  }
+
+  .is{
+    position: absolute;
+    left: 925px;
+    top: 423px;
+  }
+
+  .yours{
+    position: absolute;
+    left: 1294px;
+    top: 428px;
+  }
+
+  .im{
+    position: absolute;
+    left: 1294px;
+    top: 596px;
+  }
+
+  .what{
+    position: absolute;
+    left: 1333px;
+    top: 573px;
+  }
+
+  .tomorrow2{
+    position: absolute;
+    left: 1342px;
+    top: 551px;
+  }
+
+  .video-container {
+  
+    z-index: -11; /* 이미지 위로 오도록 설정 */
+    text-align: center;    
+  }
+    /* home-video의 초기 설정 */
+    .home-video {
+        margin-top: 353px;
+        width: 442px;
+        height: 645px;
+        object-fit: cover;
+        z-index: -1;
+      }
+      
+    /* newchallenge text 및 이미지의 초기 설정 */
+    .section01_container img {
+           z-index: 4;
+      }
+
+  /* section02 시작 */
+  .section02 {
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+/* section02_container의 초기 설정 */
+.section02_container {
+    width: 100%;
+    position: relative;
+  }
+
+  .kay{
+    position: absolute;
+    left: 259px;
+    top: 270px;
+  }
+      
+  .how{
+    position: absolute;
+    left: 330px;
+    top: 269px;
+  }
+
+  .each{
+    position: absolute;
+    left: 330px; 
+    top: 369px;
+  }
+
+  .trendy{
+    position: absolute;
+    left: 1316px;
+    top: 540px;
+  }
+
+  .jdg{
+    position: absolute;
+    left: 1627px;
+    top: 540px;
+  }
+
+  .kay2{
+    position: absolute;
+    left: 260px;
+    top: 720px;
+  }
+
+  .that{
+    position: absolute;
+    left: 330px;
+    top: 720px;
+  }
