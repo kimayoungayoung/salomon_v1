@@ -227,3 +227,353 @@ body {
     left: 330px;
     top: 720px;
   }
+
+  /* section03 시작 */
+  .section03 {
+    width: 1920px;
+    height: 1080px;
+    margin: auto;;
+  }
+  
+/* section01_container의 초기 설정 */
+.section03_container {
+    width: 100%; /* 100%로 변경 */
+    position: relative;
+  }
+
+/* section04_container의 초기 설정 */
+  .section04 {
+  width: 1920px;
+  height: 1080px;
+  margin: auto;;
+  }
+  
+  /* section04 시작 */
+.section04_container {
+  width: 1920px;
+  height: 1080px;
+  position: relative
+  }
+
+  .line {
+    position: absolute;
+    left: 140px;
+    top: 0px;
+    opacity: 0;
+  }
+
+  .mountain {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .slide {
+    position: absolute;
+    left: 960px;
+    top: 0;
+  }
+  
+  .shoes {
+    position: absolute;
+    left: 549px;
+    top: 478px;
+  }
+
+  .logo {
+    position: absolute;
+    left: 142px;
+    top: 185px;
+  }
+  
+  .sport {
+    position: absolute;
+    left: 228px;
+    top: 231px;
+  }
+  
+  .style {
+    position: absolute;
+    left: 182px;
+    top: 283px;
+  }
+
+  .point {
+    position: absolute;
+    opacity: 0;
+    left: 1100px;
+    top: 620px;
+    animation: scale 0.5s infinite alternate;
+  }
+  
+  .point2 {
+    position: absolute;
+    opacity: 0;
+    left: 1262px;
+    top: 984px;
+    animation: scale 0.5s infinite alternate;
+  }
+  
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(1.2);
+    }
+  }
+  
+  .detail {
+    position: absolute;
+    left: 1123px;
+    top: 255px;
+  }
+  
+  .detail2 {
+    position: absolute;
+    left: 1285px;
+    top: 560px;
+  }
+  
+  .main_text {
+    position: absolute;
+    left: 1158px;
+    top: 185px;
+  }
+  
+  .sub_text {
+    position: absolute;
+    left: 1158px;
+    top: 210px;
+  }
+  
+  .main_text2 {
+    position: absolute;
+    left: 1428px;
+    top: 493px;
+  }
+  
+  .sub_text2 {
+    position: absolute;
+    left: 1428px;
+    top: 515px;
+  }
+  
+  .scroll {
+    position: absolute;
+    left: 1646px;
+    top: 951px;
+  }
+  /* section04 끝 */
+
+  
+/* section05 시작 */
+.section05 {
+  width: 1920px;
+  height: 1080px;
+  margin: auto;
+}
+
+.section05_container {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.line2 {
+  position: absolute;
+  left: 140px;
+  top: 0px;
+}
+
+.mountain2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.slide2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.shoes2 {
+  position: absolute;
+  left: 350px;
+  top: 333px;
+}
+
+.point3 {
+  position: absolute;
+  opacity: 0;
+  left: 378px;
+  top: 738px;
+  animation: scale 0.5s infinite alternate;
+}
+
+.detail3 {
+  position: absolute;
+  left: 139px;
+  top: 329px;
+}
+
+.main_text3 {
+  position: absolute;
+  left: 141px;
+  top: 262px;
+}
+
+.sub_text3 {
+  position: absolute;
+  left: 141px;
+  top: 284px;
+}
+
+.letsinvent {
+  position: absolute;
+  left: 633px;
+  top: 185px;
+}
+
+.text_01 {
+  position: absolute;
+  left: 1104px;
+  top: 330px;
+}
+
+.text_02 {
+  position: absolute;
+  left: 1153px;
+  top: 356px;
+}
+
+.text_03 {
+  position: absolute;
+  left: 1162px;
+  top: 382px;
+}
+
+.the {
+  position: absolute;
+  left: 141px;
+  top: 901px;
+}
+
+.future {
+  position: absolute;
+  left: 538px;
+  top: 905px;
+}
+/* section05 끝 */
+
+/* section06 시작 */
+.section06 {
+  width: 1920px;
+  height: 1080px;
+}
+
+.section06_container {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.bg3 {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.bg_1947 {
+  left: 0px;
+  top: 150px;
+  position: absolute;
+}
+
+.francois {
+  left: 143px;
+  top: 274px;
+  position: absolute;
+}
+
+.salomon {
+  left: 963px;
+  top: 400px;
+  position: absolute;
+}
+
+.text_04{
+  left: 1252px;
+  top: 569px;
+  position: absolute;
+}
+
+.text_05 {
+  left: 378px;
+  top: 737px;
+  position: absolute;
+}
+/* section06 끝*/
+
+
+/* section07 시작 */
+.section07 {
+  width: 1920px;
+  height: 1080px;
+}
+
+.section07_container {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.line_07 {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.img_01 {
+  left: 746px;
+  top: 247px;
+  position: absolute;
+}
+
+.bt {
+  left: 1770px;
+  top: 911px;
+  position: absolute;
+}
+
+.sbt {
+  left: 1776px;
+  top: 940px;
+  position: absolute;
+}
+
+.sbt2 {
+  left: 1776px;
+  top: 962px;
+  position: absolute;
+}
+
+.sbt3 {
+  left: 1776px;
+  top: 984px;
+  position: absolute;
+}
+
+.apparel {
+  left: 563px;
+  top: 471px;
+  position: absolute;
+}
+
+.shop {
+  left: 884px;
+  top: 720px;
+  position: absolute;
+}
