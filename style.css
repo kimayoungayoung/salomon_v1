@@ -43,6 +43,13 @@ body {
     position: relative;
   }
 
+  
+/* .main_bg {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+} */
+
    /* newchallenge text 애니메이션 */
    .n{
     position: absolute;
@@ -154,14 +161,13 @@ body {
   }
 
   .video-container {
-  
     z-index: -11; /* 이미지 위로 오도록 설정 */
     text-align: center;    
   }
     /* home-video의 초기 설정 */
     .home-video {
-        margin-top: 353px;
-        width: 442px;
+        /* margin-top: 353px; */
+        width: 30vw;
         height: 645px;
         object-fit: cover;
         z-index: -1;
@@ -171,6 +177,16 @@ body {
     .section01_container img {
            z-index: 4;
       }
+/* 
+.main_bg {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+}  */
+
+
+
+
 
   /* section02 시작 */
   .section02 {

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    luxy.init(); // luxy.js 실행
+    // luxy.init(); // luxy.js 실행
   });
 
   const ani01 = gsap.timeline({
@@ -18,9 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const videoTimeline = gsap.timeline({
     scrollTrigger: {
         trigger: ".video-container",
-        start: "top center", // 트리거 시작 위치
-        end: "bottom center", // 트리거 종료 위치
-        scrub: true, // 스크롤 중에 부드럽게 애니메이션 적용
+        start: "top top", // 트리거 시작 위치
+        pin:true,
+        end: "bottom bottom", // 트리거 종료 위치
+        markers:true,
+        scrub: 1.5, // 스크롤 중에 부드럽게 애니메이션 적용
+        duration: 3
     },
 });
 
@@ -28,7 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
 videoTimeline.to(".home-video", {
     width: "100vw", // 가로로 화면 가득 채우도록 설정
     height: "100vh", // 세로로도 화면 가득 채우도록 설정
-    ease: "power1.out", // 이징 함수 설정 (선택 사항)
+    // ease: "power1.out", // 이징 함수 설정 (선택 사항)
+    duration: 3,
 });
 
 //   ani01.form(".section01_container", {
@@ -124,7 +128,7 @@ ani04.from(".sub_text", {
 });
 
 // section02_p_02 애니메이션
-ani01.to(".point2", {
+ani04.to(".point2", {
   opacity: 1, // 최종 투명도
   scale: 1.2, // 최종 크기
   duration: 0.5, // 애니메이션 기간
